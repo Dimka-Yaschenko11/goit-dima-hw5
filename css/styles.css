@@ -1,0 +1,112 @@
+/* reset styles */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Playfair Display";
+  font-weight: 400;
+}
+
+/* стилі контейнера */
+
+.container {
+  width: 1200px;
+  padding: 0px 143px;
+  margin: 0 auto;
+}
+
+/* стилі навігації */
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 71px;
+  margin-bottom: 92px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 100px;
+}
+
+.nav-link {
+  font-size: 14px;
+  line-height: 19px;
+  color: #7d7d7d;
+}
+
+.nav-link:hover {
+  color: #03a9f4;
+}
+
+/* стилі main */
+
+.main-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  width: calc((100% - 65px) / 2);
+}
+
+.main-item:nth-child(2n + 1) {
+  margin-right: 65px;
+  margin-bottom: 130px;
+}
+
+.main-item:nth-child(-n + 2) {
+  margin-bottom: 90px;
+}
+
+.main-img {
+  margin-bottom: 62px;
+}
+
+.main-title {
+  font-family: 'Ubuntu';
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b4ad9e;
+}
+
+.main-subtitle {
+  font-size: 30px;
+  line-height: 40px;
+  color: #626262;
+}
+
+.main-text {
+  font-size: 14px;
+  line-height: 19px;
+  color: #626262;
+}
+
+/* стилі кнопкі */
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 66px;
+  padding: 20px 50px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #626262;
+}
