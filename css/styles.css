@@ -6,6 +6,8 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -59,20 +61,21 @@ body {
 .main-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 130px 65px;
 }
 
 .main-item {
   width: calc((100% - 65px) / 2);
 }
 
-.main-item:nth-child(2n + 1) {
+/* .main-item:nth-child(2n + 1) {
   margin-right: 65px;
   margin-bottom: 130px;
 }
 
 .main-item:nth-child(-n + 2) {
   margin-bottom: 90px;
-}
+} */
 
 .main-img {
   margin-bottom: 62px;
@@ -91,6 +94,7 @@ body {
   font-size: 30px;
   line-height: 40px;
   color: #626262;
+  margin-bottom: 36px;
 }
 
 .main-text {
